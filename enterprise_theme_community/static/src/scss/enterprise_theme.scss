@@ -1,0 +1,158 @@
+/*
+ *
+ *      N A V B A R
+ *
+ */
+
+.o_main_navbar {
+    background: linear-gradient(45deg, #714B67, #5e4a59);
+}
+
+/*
+ *
+ *      S E A R C H B A R
+ *
+ */
+
+.o_searchview_facet .o_searchview_facet_label {
+    background: var(--SearchBar-facet-background, #714B67);
+    color: var(--SearchBar-facet-color, #FFFFFF);
+}
+
+/*
+ *
+ *      P A N E L       M O B I L E
+ *
+ */
+
+.o_burger_menu .o_burger_menu_topbar {
+    min-height: 46px;
+    background-color: #714B67;
+    color: #FFF;
+    line-height: 46px;
+}
+
+.o_burger_menu .o_burger_menu_content.o_burger_menu_dark {
+    background-color: #624159;
+}
+
+/*
+ *
+ *      A C T I V I T Y     M O B I L E
+ *
+ */
+
+.modal.o_technical_modal.o_modal_full .modal-dialog .modal-content .modal-header {
+    background: linear-gradient(45deg, #714B67, #5e4a59);
+}
+
+.modal.o_modal_full .modal-content .modal-header .btn, .modal.o_modal_full .modal-content .modal-header .o_bank_rec_widget_form_suggest_button, .modal.o_modal_full .modal-content .modal-header .journal_item_matching_button, .modal.o_modal_full .modal-content .modal-header .o_account_reports_page .oe_link_reports, .o_account_reports_page .modal.o_modal_full .modal-content .modal-header .oe_link_reports {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*
+ *
+ *      R A D I O   I N P U T
+ *
+ */
+
+.form-check-input:checked {
+    background-color: #017e84;
+    border-color: #017e84;
+}
+
+/*
+ *
+ *      P R I M A R Y
+ *
+ */
+
+
+.btn-odoo {
+    color: #FFF;
+    background-color: #714B67;
+    border-color: #714B67;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #714B67;
+    border-color: #714B67;
+}
+
+.btn-fill-primary, .btn-primary {
+    color: #FFF;
+    background-color: #017e84;
+    border-color: #017e84;
+}
+
+.btn-outline-primary {
+    color: #017e84;
+    border-color: #017e84;
+}
+
+.nav-link {
+    color: #017e84;
+}
+
+.btn-fill-primary:disabled, .btn-primary:disabled, .btn-fill-primary.disabled, .disabled.btn-primary {
+    color: #FFF;
+    background-color: #017e84;
+    border-color: #017e84;
+}
+
+.btn-link {
+    color: #017e84;
+}
+
+.btn-fill-primary, .btn-primary {
+    color: #4A4F59;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.o_field_statusbar > .o_statusbar_status > .o_arrow_button.o_arrow_button_current.disabled {
+    background-color: #f8f9fa;
+    color: #714B67;
+}
+
+a:hover {
+    color: #01666b;
+}
+
+a {
+    color: #01666b;
+}
+
+/*
+ *
+ *      R E Q U I R E D
+ *
+ */
+
+
+.o_required_modifier {
+    --o-input-border-color: #017e84;
+    --o-caret-color: #017e84;
+}
+
+.o_field_widget.o_field_many2one .o_external_button {
+    color: #017e84;
+}
+
+/*
+ *
+ *      S E C O N D A R Y
+ *
+ */
+
+
+.btn-secondary {
+    color: #000;
+    background-color: #FFF;
+    border-color: #FFF;
+    box-shadow: 0;
+    color: #01666b;
+}

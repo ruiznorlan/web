@@ -21,6 +21,17 @@
 
 /*
  *
+ *      S E T T I N G S
+ *
+ */
+
+.o_base_settings .o_setting_container .settings_tab .selected {
+    background-color: var(--settings__tab-bg--active);
+    box-shadow: inset 2px 0 0 #017e84;
+}
+
+/*
+ *
  *      P A N E L       M O B I L E
  *
  */

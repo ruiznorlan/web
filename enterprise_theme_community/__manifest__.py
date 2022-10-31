@@ -13,4 +13,8 @@
             '/enterprise_theme_community/static/src/scss/enterprise_theme.scss',
         ],
     },
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+    'author': 'Norlan Ruiz',
 }

@@ -10,6 +10,18 @@
 
 /*
  *
+ *      L O A D I N G
+ *
+ */
+
+
+.o_loading_indicator {
+    background-color: #714B67;
+    color: white;
+}
+
+/*
+ *
  *      S E A R C H B A R
  *
  */
@@ -79,6 +91,10 @@
  *      P R I M A R Y
  *
  */
+
+.text-primary {
+    color: #017e84 !important;
+}
 
 
 .btn-odoo {

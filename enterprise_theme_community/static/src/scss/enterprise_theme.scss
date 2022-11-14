@@ -137,6 +137,11 @@
     color: #017e84;
 }
 
+.o_ChatterTopbar_buttonToggleAttachments {
+    color: #4A4F59;
+    background-color: #FFF;
+    border-color: #FFF;
+}
 .o_ChatterTopbar_buttonAddAttachments {
     color: #4A4F59;
     background-color: #FFF;
@@ -148,6 +153,15 @@
     color: #FFF;
 }
 
+.o_field_statusbar > .o_statusbar_status > .o_arrow_button.o_arrow_button_current.disabled:after, .o_field_statusbar > .o_statusbar_status > .o_arrow_button.o_arrow_button_current.disabled:before {
+    border-left-color: #714B67;
+}
+
+.o-form-buttonbox .btn.oe_stat_button > .o_stat_info .o_stat_value, .o-form-buttonbox .btn.oe_stat_button > span .o_stat_value, .o-form-buttonbox .btn.oe_stat_button > .o_field_statinfo .o_stat_value {
+    color: #714B67;
+    border-left-color: #714B67;
+}
+
 a:hover {
     color: #01666b;
 }
@@ -155,6 +169,15 @@ a:hover {
 a {
     color: #01666b;
 }
+
+.o_form_view .o_form_uri > span:first-child {
+    color: #01666b;
+}
+
+.o_form_view .o_form_uri {
+    color: #01666b;
+}
+
 
 /*
  *
@@ -184,5 +207,17 @@ a {
     background-color: #FFF;
     border-color: #FFF;
     box-shadow: 0;
+    color: #01666b;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus {
+    color: #01666b;
+}
+
+.o_pager_previous {
+    color: #01666b;
+}
+
+.o_pager_next {
     color: #01666b;
 }

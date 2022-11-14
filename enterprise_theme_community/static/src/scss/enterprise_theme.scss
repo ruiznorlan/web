@@ -7,6 +7,9 @@
 .o_main_navbar {
     background: linear-gradient(45deg, #714B67, #5e4a59);
 }
+.o_main_navbar .o_menu_systray > * > a .badge, .o_main_navbar .o_menu_systray > * > .dropdown > a .badge, .o_main_navbar .o_menu_systray > * > button .badge, .o_main_navbar .o_menu_systray > * > label .badge {
+    background-color: var(--o-navbar-badge-bg, #01939a);
+}
 
 /*
  *
@@ -134,15 +137,15 @@
     color: #017e84;
 }
 
-.btn-fill-primary, .btn-primary {
+.o_ChatterTopbar_buttonAddAttachments {
     color: #4A4F59;
     background-color: #FFF;
     border-color: #FFF;
 }
 
 .o_field_statusbar > .o_statusbar_status > .o_arrow_button.o_arrow_button_current.disabled {
-    background-color: #f8f9fa;
-    color: #714B67;
+    background-color: #714B67;
+    color: #FFF;
 }
 
 a:hover {

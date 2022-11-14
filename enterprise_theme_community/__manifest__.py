@@ -9,6 +9,9 @@
         'web'
     ],
     'assets': {
+        'web._assets_primary_variables': [
+            '/enterprise_theme_community/static/src/scss/primary_variables.scss',
+        ],
         'web.assets_backend': [
             '/enterprise_theme_community/static/src/scss/enterprise_theme.scss',
         ],

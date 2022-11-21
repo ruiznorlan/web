@@ -7,6 +7,7 @@
 .o_main_navbar {
     background: linear-gradient(45deg, #714B67, #5e4a59);
 }
+
 .o_main_navbar .o_menu_systray > * > a .badge, .o_main_navbar .o_menu_systray > * > .dropdown > a .badge, .o_main_navbar .o_menu_systray > * > button .badge, .o_main_navbar .o_menu_systray > * > label .badge {
     background-color: var(--o-navbar-badge-bg, #01939a);
 }
@@ -99,6 +100,9 @@
     color: #017e84 !important;
 }
 
+.btn {
+    border-radius: 0;
+}
 
 .btn-odoo {
     color: #FFF;
@@ -162,6 +166,14 @@
     border-left-color: #714B67;
 }
 
+.text-odoo {
+    color: #714B67 !important;
+}
+
+h1, .h1 {
+    font-size: 2.6rem;
+}
+
 a:hover {
     color: #01666b;
 }
@@ -220,4 +232,23 @@ a {
 
 .o_pager_next {
     color: #01666b;
+}
+
+
+/*
+ *
+ *      L I S T    V I E W
+ *
+ */
+
+.o_list_renderer {
+    --ListRenderer-thead-border-end-color: #fff;
+}
+
+.o_list_renderer .o_list_table thead {
+    background-color: #fff;
+}
+
+.o_list_renderer .o_list_table tfoot {
+    background-color: #fff;
 }
